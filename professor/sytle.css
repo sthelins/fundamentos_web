@@ -1,0 +1,18 @@
+/* ====== ESTILOS INDEX.HTML ============*/
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 10rem;
+}
+
+/* ====== ESTILOS INDEX.HTML ============*/
