@@ -1,0 +1,91 @@
+/* ===========  geral  ================*/
+* {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ===========  variaveis  ================*/
+:root {
+  /*colors*/
+  --primary-color: #2e86de;
+  --secundy-color: #bed7f5;
+  --third--color: #cbddf3;
+
+  /*fontes*/
+  --title-font-size: 1.875rem;
+  --subtitle-font-size: 1rem;
+
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
+}
+
+/* ============  menu  ================*/
+.menu {
+  background-color: var(--primary-color);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu li {
+  display: inline;
+  padding: 20px;
+}
+
+.menu ul li {
+  font-family: var(--title-font);
+}
+
+.menu a:hover {
+  color: white;
+}
+
+/* ============  home  ================*/
+.home {
+  background-color: var(--third--color);
+  padding: 4rem;
+}
+
+.home h1 {
+  font-family: var(--subtitle-font);
+  font-size: 1.5rem;
+}
+
+.home p {
+  font-family: var(--subtitle-font-size);
+}
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: justify;
+  padding: 30px;
+  font-size: 1.2rem;
+}
+
+.home img {
+  border-radius: 50%;
+  width: 300px;
+  height: 400px;
+}
+
+/*================= sobres ===============*/
+.about {
+  background-color: var(--secundy-color);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.center {
+  text-align: center;
+}
