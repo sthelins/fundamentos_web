@@ -1,7 +1,14 @@
+:root {
+}
+
 /* ====== ESTILOS INDEX.HTML ============*/
 
 .center {
   text-align: center;
+}
+
+.justify {
+  text-align: justify;
 }
 
 .container {
@@ -11,8 +18,51 @@
   align-items: center;
 }
 
-img {
-  width: 10rem;
+#menu li {
+  display: inline;
+  padding: 20px;
 }
 
-/* ====== ESTILOS INDEX.HTML ============*/
+#menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#menu li a:hover {
+  transition: 500ms;
+  color: grey;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
+
+.wh-300 {
+  width: 300px;
+  height: 300-x;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+/* FOOTER*/
+.tm-social {
+  width: 50px;
+  height: 50px;
+}
+
+footer .container {
+  display: flex;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  justify-content: space-between;
+}
+/* ====== ESTILOS CONTATO.HTML ============*/
+.ml-50 {
+  margin-left: 50px;
+}
